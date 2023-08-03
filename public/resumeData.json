@@ -1,0 +1,151 @@
+{
+  "main": {
+    "name": "Valentin Manier",
+    "occupation": "Développeur Web",
+    "description": "Je suis créatif et passionné avec une solide expérience dans la conception et la création de sites web modernes et intuitifs. ",
+    "image": "profilepic.jpg",
+    "bio": "",
+    "contactmessage": "",
+    "email": "mail@gmail.com",
+    "phone": "06-30-05-60-80",
+    "address": {
+      "street": "(Rue)",
+      "city": "Souchez",
+      "state": "France",
+      "zip": "(Code Postal)"
+    },
+    "website": "",
+    "resumedownload": "",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/valentin-manier-a18255150/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/WattoRex",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "bahance",
+        "url": "https://github.com/WattoRex",
+        "className": "fa-brand fa-behance"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Voici mes compétences :",
+    "skillmessage2": "Voici mes compétences autre que le code:",
+    "education": [
+      {
+        "school": "Université de Science Jean-Perrin",
+        "degree": "Niveau  L2",
+        "graduated": "Juin 2021",
+        "description": "Description ! "
+      },
+      {
+        "school": "A.F.C.I",
+        "degree": "",
+        "graduated": "En cours",
+        "description": "Description ! "
+      }
+    ],
+    "work": [
+      {
+        "company": "C Pour elle",
+        "title": "Développeur Wen",
+        "years": "OCtobre 2023 — Février 2024",
+        "description": "Conception d'un site."
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML",
+        "level": "60%"
+      },
+      {
+        "name": "CCS",
+        "level": "60%"
+      },
+      {
+        "name": "JavasScript",
+        "level": "30%"
+      },
+      {
+        "name": "PHP",
+        "level": "15%"
+      },
+      {
+        "name": "SQL",
+        "level": "5%"
+      },
+      {
+        "name": "JSX",
+        "level": "10%"
+      }
+    ],
+    "skills2": [
+      {
+        "name": "Photoshop",
+        "level": "60%"
+      },
+      {
+        "name": "Lightroom",
+        "level": "80%"
+      },
+      {
+        "name": "Luminar",
+        "level": "60%"
+      },
+      {
+        "name": "Animator",
+        "level": "10%"
+      },
+      {
+        "name": "Illustrator",
+        "level": "30%"
+      },
+      {
+        "name": "AdobeXD",
+        "level": "55%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "API Météo",
+        "category": "Javascript",
+        "image": "image1.png",
+        "url": "https://github.com/WattoRex"
+      },
+      {
+        "title": "Photo Maison Island",
+        "category": "Test 25",
+        "image": "image1.png",
+        "url": "https://github.com/WattoRex"
+      },
+      {
+        "title": "Photo Maison Island",
+        "category": "Test 25",
+        "image": "image2.png",
+        "url": "https://github.com/WattoRex"
+      }
+    ],
+    "projects2": [
+      {
+        "title": "Photo Maison",
+        "category": "Test 43",
+        "image": "image1.png",
+        "url": "https://github.com/WattoRex"
+      },
+      {
+        "title": "Photo Maison",
+        "category": "Test 31",
+        "image": "image2.png",
+        "url": "https://github.com/WattoRex"
+      }
+    ]
+  }
+}
