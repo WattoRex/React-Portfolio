@@ -11,6 +11,18 @@ a {
   text-decoration: none;
 }
 
+body {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  width: 100%;
+  background: #161415 url(../../../public/images/header-background.jpg)
+    no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  text-align: center;
+}
+
 /* Style en dehors de la Grid */
 .TitreListeProjets {
   text-align: center;
@@ -21,12 +33,11 @@ a {
 .projets-page {
   margin-top: 8vh;
   padding: 20px;
-  background-color: rgba(110, 97, 97, 0.4);
   border-radius: 15px;
   margin-left: 5%;
   margin-right: 5%;
-  box-shadow: 12px 15px 17px -1px rgba(0, 0, 0, 0.47);
   margin-bottom: 4vh;
+  border-bottom: 2px solid black !important;
 }
 
 .projets-grid {
@@ -35,7 +46,7 @@ a {
   gap: 20px;
 }
 
-.projet-card {
+.projet_card {
   position: relative;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -44,7 +55,7 @@ a {
   box-shadow: 12px 15px 17px -1px rgba(0, 0, 0, 0.47);
 }
 
-.projet-card:hover {
+.projet_card:hover {
   transform: translateY(-5px);
 }
 
@@ -76,7 +87,7 @@ a {
   transition: opacity 0.2s ease;
 }
 
-.projet-card:hover .overlay {
+.projet_card:hover .overlay {
   opacity: 1;
 }
 
@@ -108,7 +119,7 @@ a {
   display: none; /* Masquer l'icône initialement */
 }
 
-.projet-card:hover .icone {
+.projet_card:hover .icone {
   display: block; /* Afficher l'icône au survol */
 }
 

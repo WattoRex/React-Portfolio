@@ -8,7 +8,7 @@ const Project2 = ({ data }) => {
       const projectsData2 = data.projects2.map((project2) => {
         const projectImage = `images/portfolio/${project2.image}`;
         return (
-          <div key={project2.title} className="projet-card">
+          <div key={project2.title} className="projet_card">
             <div className="projet-image">
               <img alt={project2.title} src={projectImage} />
               <div className="overlay">
