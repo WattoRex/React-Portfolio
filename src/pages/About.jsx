@@ -4,7 +4,7 @@ import Work from "../components/About/Travail";
 import Education from "../components/About/Formation";
 import Skill from "../components/About/CompétenceCode";
 import Skill2 from "../components/About/CompétenceAutres";
-import Footer from "../components/Footer/Footer"
+import Footer from "../components/Footer/Footer";
 
 const Resume = ({ data }) => {
   if (!data) return null;
@@ -19,9 +19,7 @@ const Resume = ({ data }) => {
       </div>
       <Skill skillmessage={skillmessage} skills={skills} />
       <Skill2 skillmessage={skillmessage} skills2={skills2} />
-      <footer>
-        <Footer/>
-      </footer>
+      <Footer />
     </section>
   );
 };

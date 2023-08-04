@@ -115,21 +115,39 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Portfolio Web Dev",
+        "category": "React",
+        "image": "image1.png",
+        "url": "https://github.com/WattoRex"
+      },
+      {
         "title": "API Météo",
         "category": "Javascript",
         "image": "image1.png",
         "url": "https://github.com/WattoRex"
       },
       {
-        "title": "Photo Maison Island",
-        "category": "Test 25",
+        "title": "API GitHub",
+        "category": "Javascript",
         "image": "image1.png",
         "url": "https://github.com/WattoRex"
       },
       {
-        "title": "Photo Maison Island",
-        "category": "Test 25",
-        "image": "image2.png",
+        "title": "API Liste de Jeux",
+        "category": "Javascript",
+        "image": "image1.png",
+        "url": "https://github.com/WattoRex"
+      },
+      {
+        "title": "Générateur de code CSS",
+        "category": "Javascript",
+        "image": "image1.png",
+        "url": "https://github.com/WattoRex"
+      },
+      {
+        "title": "Site Vitrine Photographe",
+        "category": "CSS/HTML",
+        "image": "image1.png",
         "url": "https://github.com/WattoRex"
       }
     ],

@@ -2,9 +2,11 @@
 
 #resume {
   background: #fff;
-  padding-top: 90px;
-  padding-bottom: 72px;
+  margin-top: 12vh;
+  padding-bottom: 5px;
   overflow: hidden;
+  position: relative;
+  height: 100%;
 }
 
 #resume a,
@@ -82,6 +84,7 @@
 }
 
 .CompétenceTitre {
+  margin-left: 6vh;
   padding-bottom: 3vh;
 }
 

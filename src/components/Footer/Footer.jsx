@@ -1,16 +1,16 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   useEffect(() => {
     // Manipulation du DOM pour inclure le CSS
-    const style = document.createElement('style');
+    const style = document.createElement("style");
     style.textContent = `
       .footer {
         background-color: #f0f0f0;
         padding: 20px;
         text-align: center;
-        position: fixed;
+        position: absolute;
         bottom: 0;
         left: 0;
         right: 0;
@@ -37,11 +37,14 @@ const Footer = () => {
   }, []);
 
   const currentYear = new Date().getFullYear();
-  const yourName = 'Manier Valentin';
+  const yourName = "Manier Valentin";
 
   return (
     <div className="footer">
-      {yourName} &copy; {currentYear} | Site réalisé par <Link to="/"><a href="https://www.example.com">Manier Valentin</a></Link>
+      {yourName} &copy; {currentYear} | Site réalisé par{" "}
+      <Link to="/">
+        <a href="https://www.example.com">Manier Valentin</a>
+      </Link>
     </div>
   );
 };

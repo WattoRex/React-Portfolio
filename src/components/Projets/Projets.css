@@ -11,16 +11,17 @@ a {
   text-decoration: none;
 }
 
-body {
+#Resume {
+  padding-bottom: 60px;
+  overflow: hidden;
   position: relative;
-  height: 100vh;
-  min-height: 500px;
-  width: 100%;
+  height: 100%;
   background: #161415 url(../../../public/images/header-background.jpg)
     no-repeat top center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
+  overflow: hidden;
 }
 
 /* Style en dehors de la Grid */
