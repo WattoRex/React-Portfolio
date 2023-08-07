@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
+// import Nav from "./components/NavBar/Nav";
 import Home from "./pages/home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
@@ -34,6 +35,7 @@ const App = () => {
   return (
     <Router>
       <div>
+        {/* <Nav /> */}
         <NavBar />
       </div>
       <Routes>

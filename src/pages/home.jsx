@@ -6,7 +6,6 @@ import Banner from "../components/Banner/Banner";
 const Home = ({ data }) => {
   return (
     <header id="home">
-      <NavBar />
       <Banner data={data} />
 
       {/* Bouton Scroll Down pour une Landing Page */}

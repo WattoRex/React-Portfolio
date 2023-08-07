@@ -43,14 +43,23 @@ const NavBar = () => {
 
   return (
     <nav id="nav-wrap" style={navWrapStyle}>
-      <a className="mobile-btn" href="#nav-wrap" title="Show navigation" style={mobileBtnStyle}>
+      <a
+        className="mobile-btn"
+        href="#nav-wrap"
+        title="Show navigation"
+        style={mobileBtnStyle}
+      >
         Show navigation
       </a>
-      <a className="mobile-btn" href="#home" title="Hide navigation" style={mobileBtnStyle}>
+      <a
+        className="mobile-btn"
+        href="#home"
+        title="Hide navigation"
+        style={mobileBtnStyle}
+      >
         Hide navigation
       </a>
 
-      {/* Fonctionne avec des bouton ! */}
       <div className="boiteNav">
         <ul id="nav" className="nav" style={navStyle}>
           <li className="current" style={listItemStyle}>
@@ -68,9 +77,11 @@ const NavBar = () => {
               Projet
             </Link>
           </li>
-          {/* <li>
-            <Link to="/contact">Contact</Link>
-          </li> */}
+          <li style={listItemStyle}>
+            <Link to="/contact" style={linkStyle}>
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
